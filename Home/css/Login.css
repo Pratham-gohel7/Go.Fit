@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    text-align: center;
+    opacity: 0.2;
+    background: no-repeat;
+}
+
+.logos{
+    display: flex;
+}
+
+.loginform{
+    display: flex;
+}
+
+.form{
+    display: inline-block;
+    background-color: rgba(206, 238, 238, 0.717);
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 100px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+form{
+    width: 500px;
+}
+
+h3{
+    top: 12px;
+    display: block;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.logo{
+    position: absolute;
+    height: 65px;
+    width: 90px;
+    top: 115px;
+    border-radius: 12px;
+    opacity: 0.5;
+    color: azure;
+}
+
+
+
+#create{
+    float: left;
+    text-decoration: none;
+    left: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(206, 238, 238);
+    
+    padding: 6px;
+    border-radius: 8px;
+    color: green;
+}
+
+#admin{
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(206, 238, 238);
+    padding: 6px;
+    border-radius: 8px;
+    color: green
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid rgba(199, 154, 242, 0.984);
+    border-radius: 8px;
+}
+
+#lgbtn{
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    /* background-color: rgba(199, 154, 242, 0.984); */
+    background-color: black;
+    color: white;
+    border: 1px medium rgb(96, 77, 96);
+    border-radius: 8px;
+}
+
+#lgbtn:hover{
+    /* background-color: rgba(190, 129, 247, 0.984); */
+    background-color: rgba(48, 64, 66, 0.984);
+    /* color: black; */
+    cursor: pointer;
+}
+

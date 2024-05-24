@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    text-align: center;
+    background: no-repeat;
+}
+
+.logos{
+    display: flex;
+}
+
+.loginform{
+    display: flex;
+    height: 130vh;
+}
+
+.title{
+    display: flex;
+    position: absolute;
+    top: 90px;
+}
+
+.form{
+    display: inline-block;
+    background-color: rgba(206, 238, 238, 0.717);
+    width: 500px;
+    height:65vh;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 300px;
+    padding: 100px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+form{
+    width: 500px;
+}
+
+h3{
+    display: block;
+    margin-left: 50px;
+}
+
+.logo{
+    height: 65px;
+    border-radius: 12px;
+    opacity: 0.5;
+    color: azure;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid rgba(199, 154, 242, 0.984);
+    border-radius: 8px;
+}
+
+#select{
+    width: 430px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 12px;
+    border: 1px solid rgba(199, 154, 242, 0.984);
+    border-radius: 8px;
+}
+label{
+    width: 20px;
+    height: 20px;
+    font: 25px;
+}
+
+#lgbtn{
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    /* background-color: rgba(199, 154, 242, 0.984); */
+    background-color: rgba(170, 110, 227, 0.984);
+    color: white;
+    border: 1px medium rgb(96, 77, 96);
+    border-radius: 8px;
+}
+
+#create{
+    float: left;
+    text-decoration: none;
+    left: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(206, 238, 238);
+    padding: 6px;
+    border-radius: 8px;
+    color: green;
+}
+
+#admin{
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(206, 238, 238);
+    padding: 6px;
+    border-radius: 8px;
+    color: green
+}
+
+#lgbtn:hover{
+    background-color: rgba(190, 129, 247, 0.984);
+    cursor: pointer;
+}

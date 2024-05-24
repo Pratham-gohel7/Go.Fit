@@ -1,0 +1,4 @@
+To login in to th admin panel use 
+
+    username : admin
+    password : admin+gofit

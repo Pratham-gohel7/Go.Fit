@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.home{
+    padding: 1rem 7%;
+    background: url(../../media/img/blog-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    
+}
+
+.go{
+    color: black;
+}
+
+.contact_form{    
+    display: inline-block;
+    width: 45vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px 10px;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+}
+
+.map{
+    width: 45vw;
+    height: 50vh;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+input{
+    font-size: 15px;
+    width: 40vw;
+    height: 6vh;
+    margin: 5px;
+}
+
+input:active{
+    border: 1px solid pink ;
+}
+
+select{
+    width: 40vw;
+    height: 4vh;
+    margin: 5px;
+}
+
+textarea{
+    width: 40vw;
+    height: 10vh;
+    margin: 5px;
+}
+
+.conbtn{
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(183, 22, 22, 0.76);
+    color: white;
+    border: 1px medium rgb(96, 77, 96);
+    border-radius: 8px;
+}
+
+.conbtn:hover{
+    background-color: rgba(236, 30, 30, 0.76);
+    cursor: pointer;
+}
