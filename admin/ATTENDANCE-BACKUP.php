@@ -80,7 +80,7 @@ if (!isset($_SESSION['ID'])) {
                 </tr>
               </thead>";
 
-              date_default_timezone_set('Asia/Kathmandu');
+              date_default_timezone_set('Asia/india');
               //$current_date = date('Y-m-d h:i:s');
               $current_date = date('Y-m-d h:i A');
               $exp_date_time = explode(' ', $current_date);
@@ -158,11 +158,6 @@ if (!isset($_SESSION['ID'])) {
   <!--end-main-container-part-->
 
   <!--Footer-part-->
-
-  <div class="row-fluid">
-    <div id="footer" class="span12"> <?php echo date("Y"); ?> &copy; Developed By Naseeb Bajracharya</a> </div>
-  </div>
-
   <style>
     #footer {
       color: white;
